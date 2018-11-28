@@ -1,0 +1,90 @@
+<html>
+	<link rel="stylesheet" href="style.css">
+	<style>
+
+		body{
+	background-color: hsl(0, 0%, 100%);
+		display: inline-block;
+		vertical-align: center;
+		margin-left: 30%;
+		font-family: 'Roboto', 'Noto', sans-serif;
+	}
+
+	input[type=text]{
+		width: 230px;
+		height: 40px;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 2.5px;
+		margin-right: 15px;
+		box-sizing: border-box;
+		font-family: 'Roboto', 'Noto', sans-serif;
+		font-size: 16px;
+		background-color: white;
+		border: 1px solid rgb(0, 0, 0);
+		margin-top: 20px;
+		text-align: center;
+		
+	}
+	div{
+		flex:1;
+		display:flex;
+		flex-direction: column;
+	}
+	a{
+			height: 40px;
+			display: inline-block;
+			margin-left: 5px;
+			box-sizing: border-box;
+			font-family: 'Roboto', 'Noto', sans-serif;
+			margin-top: 20px;
+			text-align: center;
+		}
+	input[type=submit] {
+		margin-bottom: 15px;
+		font-weight: 200;
+		margin-top: 20px;
+		font-family: 'Roboto', 'Noto', sans-serif;
+		background-color: white;
+		border-radius: 2.5px;
+		border: 2px solid rgb(0, 0, 0);
+		width: 140px;
+		height: 40px;
+		text-align: center;
+		float: center;
+	}
+
+
+	</style>
+
+	<body>
+		<div>
+		<form method="get" action="/retrive">
+			<a>URL LINK</a>
+			<input name="retrive2" type="text">
+			<input type="submit" value="get data">
+		</form>
+		<form method="get" action="/updated">
+			<a>Existing Link</a>
+			<input name="updated3" type="text">
+			<a>New Link</a>
+			<input name="updated31" type="text">
+			<input type="submit" value="update data">
+		</form>
+		<form method="get" action="/deleteurl">
+			<a>URL ID</a>
+			<input name="deleteurl4" type="text">
+			<input type="submit" value="delete data">
+		</form>
+		<form method="get" action="/addnew">
+			<a>add new url</a>
+			<input name="addnew" type="text">
+			<input type="submit" value="add data">
+		</form>
+		<form method="get" action="/getall">
+			<input type="submit" value="get complete data">
+		</form>
+		</div>
+	</body>
+
+</html>

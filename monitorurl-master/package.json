@@ -1,0 +1,22 @@
+{
+  "name": "mongodb-playlist",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.3.13",
+    "ping": "^0.2.2"
+  }
+}
